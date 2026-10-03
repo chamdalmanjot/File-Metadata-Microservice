@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>File Info</title>
+    <link href="/public/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <main>
+      <h1>File Info</h1>
+      <p>Choose a file to see its name, type and size.</p>
+
+      <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+        <input id="inputfield" type="file" name="upfile">
+        <input id="button" type="submit" value="Check file">
+      </form>
+
+      <footer>Made by Manjot Chamdal</footer>
+    </main>
+  </body>
+</html>
